@@ -1,0 +1,54 @@
+:root {
+  --primary: #b6895b;
+  --bg: rgb(0, 0, 0);
+}
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  outline: none;
+
+  border: none;
+
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: #faebd7;
+  /* min-height: 4000px; */
+}
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 7%;
+  background-color: rgba(58, 31, 19, 0.856);
+  border-bottom: 3px solid rgba(20, 11, 7, 0.418);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgba(20, 11, 7, 0.884);
+  font-style: italic;
+}
+.navbar .navbar-logo span {
+  color: rgba(4, 61, 24, 0.884);
+}

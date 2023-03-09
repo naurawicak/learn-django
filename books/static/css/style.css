@@ -1,0 +1,93 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #161513;
+}
+h1 {
+  color: rgb(65, 55, 55);
+  text-align: center;
+}
+html {
+  background-color: rgb(238, 238, 238);
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: antiquewhite;
+}
+
+td {
+  text-align: center;
+}
+thead tr {
+  height: 60px;
+  background: #ffed86;
+  font-size: 16px;
+}
+
+tbody tr {
+  height: 48px;
+  border-bottom: 1px solid #e3f1d5;
+}
+
+.a1 {
+  color: rgb(134, 20, 0);
+}
+
+#bottone5 {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+#bottone5:hover,
+#bottone5:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+#bottone5:hover {
+  transform: translateY(-1px);
+}
+
+#bottone5:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+form{
+    text-align: center;
+    font-size: 50px;
+}

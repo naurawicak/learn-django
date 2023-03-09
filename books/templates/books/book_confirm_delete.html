@@ -1,0 +1,8 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<h1>Book Delete</h1>
+<form method="post">{% csrf_token %}
+    Are you sure you want to delete "{{ object }}" ?
+    <input id="bottone5" type="submit" value="Submit" />
+</form>
